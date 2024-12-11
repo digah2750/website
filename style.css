@@ -69,18 +69,24 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
-.intro {
+.block {
   padding-bottom: 1rem;
 }
 
-.intro a {
+.block h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+.block a {
   color: var(--text-color);
   text-decoration: none;
   border-bottom: 1px solid var(--border-color);
   transition: color 0.3s ease;
 }
 
-.intro a:hover {
+.block a:hover {
   color: var(--highlight);
 }
 
@@ -90,6 +96,15 @@ h2 {
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 5px;
+}
+
+.block ul {
+  list-style:none;
+}
+
+.block li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 footer {
