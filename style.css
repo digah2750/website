@@ -1,4 +1,11 @@
 /* General Reset */
+:root {
+  --primary-color: #748d92;   /* Red */
+  --secondary-color: #d3d9d4; /* Dark Background */
+  --text-color: #212a31;      /* Light text */
+  --border-color: #124e66;    /* Red border */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +14,13 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  background-color: #212f3d;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
   line-height: 1.6;
 }
 
 header {
-  background: #117a65;
+  background: var(--primary-color);
   padding: 1rem;
 }
 
@@ -37,14 +44,14 @@ nav ul li {
 }
 
 nav a {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #ccc;
+  color: var(--parimary-color);
 }
 
 main {
@@ -54,15 +61,15 @@ main {
 }
 
 h2 {
-  color: #117a65;
+  color: var(--border-color);
   margin-bottom: 1rem;
-  border-bottom: 2px solid #117a65;
+  border-bottom: 2px solid var(--primary-color);
   padding-bottom: 0.5rem;
 }
 
 .project-card, article {
-  background: #212f3d;
-  border: 1px solid #117a65;
+  background: var(--secondary-color);
+  border: 1px solid var(--border-color);
   padding: 1rem;
   margin-bottom: 1.5rem;
   border-radius: 5px;
@@ -71,15 +78,15 @@ h2 {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #117a65;
+  background: var(--primary-color);
   position: fixed;
   width: 100%;
   bottom: 0;
 }
 
 .about-content {
-  background-color: #111;
-  border-left: 4px solid #117a65;
+  background-color: var(--secondary-color);
+  border-left: 4px solid var(--border-color);
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 5px;
@@ -91,7 +98,7 @@ footer {
 }
 
 .about-links h3 {
-  color: #117a65;
+  color: var(--border-color);
   margin-bottom: 1rem;
 }
 
@@ -104,13 +111,13 @@ footer {
 }
 
 .about-links a {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
-  border-bottom: 1px solid #117a65;
+  border-bottom: 1px solid var(--primary-color);
   transition: color 0.3s ease;
 }
 
 .about-links a:hover {
-  color: #ccc;
+  color: var(--primary-color);
 }
 
