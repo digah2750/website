@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Weston Bishop | Homelab</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Weston Bishop</h1>
+      <ul>
+        <li><a href="index.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <main>
+        <section class="portfolio-item">
+            <h2>Homelab</h2>
+            <p>My homelab is a home server using a repurposed workstation PC that I bought off of eBay. It is running one operating system, Debian 12. It has a few functions: a Minecraft server, a DNS server, a media server, and a host for this site! It serves these functions using various services and Docker containers.</p>
+            <ul><b>Here are some specifications:</b>
+              <li>OS: <a href="https://www.debian.org/">Debian 12</a></li>
+              <li>Model: Dell Precision Tower 3620</li>
+              <li>CPU: i7-7700</li>
+              <li>GPU: NVIDIA Quadro M2000</li>
+              <li>Memory: 32GB</li>
+            Not bad!</ul>
+            <ul><b>These are the services I run:</b>
+              <li><a href="https://cockpit-project.org/">Cockpit</a> for web GUI</li>
+              <li>Systemd service running a Minecraft Fabric server. I will talk about this in a blog post at some point.</li>
+              <li><a href="https://pi-hole.net/">Pi-hole</a> running in a Docker container for network-wide ad blocking</li>
+              <li>Various docker containers as <a href="https://yams.media/">YAMS</a></li>
+              <li><a href="https://httpd.apache.org/">Apache</a> HTTP server</li>
+            And much more!</ul>
+              <img src="images/homelab.png" alt="Project Image">
+              <p>I recommend the homelab project to anyone who wants to learn more about Linux and have fun along the way.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weston Bishop</p>
+    </footer>
+</body>
+</html>
+
