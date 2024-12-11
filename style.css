@@ -1,9 +1,11 @@
 /* General Reset */
 :root {
-  --primary-color: #748d92;   /* Red */
-  --secondary-color: #d3d9d4; /* Dark Background */
-  --text-color: #212a31;      /* Light text */
-  --border-color: #124e66;    /* Red border */
+  --primary-color: #7d3c98;   /* Red */
+  --secondary-color: #121212; /* Dark Background */
+  --tertiary-color: #9e9e9e;   /* Subtle Gray */
+  --text-color: #e0e0e0;      /* Light text */
+  --highlight: #d2b4de;        /* Hover Highlight */
+  --border-color: #444444;    /* Red border */
 }
 
 * {
@@ -51,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--parimary-color);
+  color: var(--highlight);
 }
 
 main {
@@ -61,10 +63,25 @@ main {
 }
 
 h2 {
-  color: var(--border-color);
+  color: var(--primary-color);
   margin-bottom: 1rem;
   border-bottom: 2px solid var(--primary-color);
   padding-bottom: 0.5rem;
+}
+
+.intro {
+  padding-bottom: 1rem;
+}
+
+.intro a {
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+  transition: color 0.3s ease;
+}
+
+.intro a:hover {
+  color: var(--highlight);
 }
 
 .project-card, article {
@@ -98,7 +115,7 @@ footer {
 }
 
 .about-links h3 {
-  color: var(--border-color);
+  color: var(--text-color);
   margin-bottom: 1rem;
 }
 
@@ -113,11 +130,11 @@ footer {
 .about-links a {
   color: var(--text-color);
   text-decoration: none;
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
   transition: color 0.3s ease;
 }
 
 .about-links a:hover {
-  color: var(--primary-color);
+  color: var(--highlight);
 }
 
