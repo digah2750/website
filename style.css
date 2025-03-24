@@ -69,6 +69,13 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
 .block {
   padding-bottom: 1rem;
 }
@@ -134,6 +141,20 @@ footer {
   margin-bottom: 2rem;
   border-radius: 5px;
   line-height: 1.8;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-photo {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+
+}
+
+.about-text {
+  flex: 1;
 }
 
 .about-content p {
@@ -164,3 +185,18 @@ footer {
   color: var(--highlight);
 }
 
+.portfolio-item ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-item a {
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+  transition: color 0.3s ease;
+}
+
+.portfolio-item a:hover {
+  color: var(--highlight);
+}
