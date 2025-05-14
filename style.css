@@ -1,11 +1,11 @@
 /* General Reset */
 :root {
-  --primary-color: #612940;   /* Banner */
+  --primary-color: #64b6ac;   /* Banner */
   --secondary-color: #0F110C; /* Dark Background */
   --tertiary-color: #FFA38F;   /* Subtle Gray */
-  --text-color: #F2F3D9;      /* Light text */
+  --text-color: #FCF7FF;      /* Light text */
   --highlight: #275DAD;        /* Hover Highlight */
-  --border-color: #ABA9C3;    /* Red border */
+  --border-color: #dac4f7;    /* Red border */
 }
 
 * {
