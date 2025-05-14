@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   padding: 1rem;
 }
 
