@@ -4,8 +4,9 @@
   --secondary-color: #0F110C; /* Dark Background */
   --tertiary-color: #FFA38F;   /* Subtle Gray */
   --text-color: #FCF7FF;      /* Light text */
-  --highlight: #275DAD;        /* Hover Highlight */
+  --highlight: #dac4f7;        /* Hover Highlight */
   --border-color: #dac4f7;    /* Red border */
+  --gradient-color: #275DAD;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: var(--text-color);
   background: radial-gradient(circle at center, 
-              var(--highlight) -90%, 
+              var(--gradient-color) -90%, 
               var(--secondary-color) 90%);  line-height: 1.6;
 }
 
@@ -92,7 +93,7 @@ img {
 .block a {
   color: var(--text-color);
   text-decoration: none;
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--border-color);
   transition: color 0.3s ease;
 }
 
